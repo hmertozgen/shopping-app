@@ -1,0 +1,216 @@
+.big {
+  font-size: 56px;
+  line-height: 64px;
+  color: #222;
+}
+.normal {
+  font-size: 46px;
+  line-height: 54px;
+  color: #222;
+}
+.smaller {
+  font-size: 20px;
+
+  color: #222;
+}
+.small {
+  font-size: 12px;
+  font-weight: 700;
+  color: #222;
+}
+
+.hero {
+  background-image: url("./img/bg2.jpg");
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding: 0 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.hero .smaller {
+  padding-bottom: 15px;
+}
+
+.hero .p {
+  background-color: #cdebbc;
+  padding-bottom: 5px;
+  color: rgb(3, 1, 19);
+}
+
+.hero .big {
+  color: #088178;
+}
+
+.hero.shop {
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.feature .fe-box {
+  width: 180px;
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  margin: 15px 0;
+}
+
+.feature .fe-box:hover {
+  box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+.feature .fe-box .small {
+  display: inline-block;
+  padding: 9px 8px 6px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #088178;
+  background-color: #fddde4;
+}
+.feature .fe-box:nth-child(2) .small {
+  background-color: #cdebbc;
+}
+.feature .fe-box:nth-child(3) .small {
+  background-color: #d1e8f2;
+}
+.feature .fe-box:nth-child(4) .small {
+  background-color: #cdd4f8;
+}
+.feature .fe-box:nth-child(5) .small {
+  background-color: #f6dbf6;
+}
+.feature .fe-box:nth-child(6) .small {
+  background-color: #fff2e5;
+}
+
+.feature .fe-box img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url("./img/banner/b14.png");
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #041e42;
+}
+.newsletter .smaller {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+}
+
+.newsletter .p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #818ea0;
+}
+
+.newsletter .p span {
+  color: #ffbd27;
+}
+
+.newsletter .form {
+  display: flex;
+  width: 40%;
+}
+.newsletter input {
+  height: 3.125rem;
+  padding: 0 1.25em;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+}
+
+.newsletter button {
+  background-color: #088178;
+  color: #fff;
+  white-space: nowrap;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .col {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+footer .logo {
+  padding-bottom: 30px;
+}
+
+footer .smaller {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+footer .p {
+  font-size: 13px;
+  margin-top: 0 0 8px 0;
+}
+
+footer .follow {
+  margin-top: 20px;
+}
+
+footer .follow .a i {
+  color: #465b52;
+  padding-right: 4px;
+}
+
+footer .copyright {
+  width: 100%;
+  text-align: center;
+}
+.head {
+  justify-content: space-between;
+}
+.shop:hover {
+  color: green;
+  background: #fff;
+}
